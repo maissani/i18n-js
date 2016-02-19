@@ -264,9 +264,13 @@ by hand or using your favorite programming language. More info below.
 
 #### Via NPM with webpack and CommonJS
 
-Add the following line to your package.json dependencies (where version is the version you want - n.b. npm install requires it to be the gzipped tarball, see [npm install](https://www.npmjs.org/doc/cli/npm-install.html))
+For the current latest release you can install via npm
+```bash
+npm install i18n-js
+```
+If you want a spécific version, add the following line to your package.json dependencies (where version is the version you want)
 ```javascript
-"i18n-js": "http://github.com/fnando/i18n-js/archive/v3.0.0.rc8.tar.gz"
+"i18n-js": "3.0.0.rc13"
 ```
 Run npm install then use via
 ```javascript

@@ -1,15 +1,30 @@
 {
   "name": "i18n-js",
-  "version": "0.0.0",
+  "version": "3.0.0.rc13",
+  "description": "It's a small library to provide the I18n translations on the Javascript. It comes with Rails support.",
+  "homepage": "https://github.com/fnando/i18n-js",
+  "author": "Nando Vieira <contact@nandovieira.com> (http://nandovieira.com/)",
+  "main": "app/assets/javascripts/i18n.js",
+  "keywords": [
+    "pluralization",
+    "localization",
+    "time",
+    "date",
+    "locale",
+    "i18n"
+  ],
   "devDependencies": {
     "jasmine-node": "*"
   },
-  "main": "app/assets/javascripts/i18n.js",
   "scripts": {
     "test": "./node_modules/.bin/jasmine-node spec/js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/fnando/i18n-js.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fnando/i18n-js/issues"
   }
 }
